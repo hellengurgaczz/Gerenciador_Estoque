@@ -1,0 +1,27 @@
+{
+    "name": "gerenciador_estoque",
+    "version": "1.0.0",
+    "description": "Gerenciador de estoque desenvolvido na disciplina de Sistemas Corporativos no 5° período de Sistemas de Informação - UP",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./bin/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hellengurgaczz/Gerenciador_Estoque.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hellengurgaczz/Gerenciador_Estoque/issues"
+    },
+    "homepage": "https://github.com/hellengurgaczz/Gerenciador_Estoque#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "express": "^4.17.3"
+    }
+}
